@@ -1,0 +1,8 @@
+span {
+    font-weight: bolder;
+}
+
+span:hover {
+    cursor: pointer;
+    color: blueviolet;
+}

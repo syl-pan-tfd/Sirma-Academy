@@ -1,0 +1,19 @@
+.one {
+    line-height: normal;
+}
+
+.two {
+    line-height: 1.6;
+}
+
+.three {
+    line-height: 80%;
+}
+
+.four {
+    line-height: 200%;
+}
+
+.five {
+    line-height: 180%;
+}

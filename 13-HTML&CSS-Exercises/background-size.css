@@ -1,0 +1,9 @@
+body {
+    background-image: url("image-02.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+div {
+    background-color: antiquewhite;
+}

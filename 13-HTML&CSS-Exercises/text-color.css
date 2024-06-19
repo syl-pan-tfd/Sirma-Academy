@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+h3{
+    color: #fff;
+}
+.one {
+    color: rgb(233, 220, 220);
+}
+
+.two {
+    color: rgb(204, 230, 202);
+}
+
+.three {
+    color: rgb(233, 200, 223);
+}
+
+.four {
+    color: rgb(245, 213, 213);
+}
+
+.five {
+    color: rgb(228, 245, 255);
+}
