@@ -1,0 +1,10 @@
+.pixel-width {
+    width: 300px;
+    background-color: aquamarine;
+}
+
+.percentage-width {
+    width:50%;
+    background-color: aqua;
+}
+

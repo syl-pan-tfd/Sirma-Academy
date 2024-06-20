@@ -1,0 +1,9 @@
+.width-example {
+    background-color: blanchedalmond;
+    width: 200px;
+    min-width: 100px;
+    max-width: 300px;
+}
+
+
+

@@ -1,0 +1,17 @@
+.block {
+display: block;
+background-color: aqua;
+}
+
+.inline {
+display: inline;
+background-color: aquamarine;
+}
+
+.inline-block {
+display: inline-block;
+background-color: blanchedalmond;
+}
+
+
+

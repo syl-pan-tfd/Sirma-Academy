@@ -1,0 +1,13 @@
+.box-model {
+width: 100px;
+height: 100px;
+margin: 20px;
+padding: 10px;
+border: 2px crimson dotted;
+background-color: antiquewhite;
+}
+
+
+
+
+

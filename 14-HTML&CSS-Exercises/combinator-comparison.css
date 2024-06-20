@@ -1,0 +1,19 @@
+div p {
+   color: blue;
+   background-color: aqua;
+}
+
+div > p {
+    color: brown;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
