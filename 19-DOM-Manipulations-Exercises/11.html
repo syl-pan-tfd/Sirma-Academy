@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <style type="text/css">
+        a{
+            color: #000;
+            font-weight: bold;
+        }
+
+    </style>
+    <title>Highlight the bold words</title>
+</head>
+
+<body>
+    <a href="#" class="link" onmouseover="highlight()">link</a>
+    <p><span class="bold">We</span> have just started <span class="bold">this</span> section for the users (beginner to intermediate) who <span class="bold">want</span> to work with <span class="bold">various</span> JavaScript <span class="bold">problems</span> and write scripts online to <span class="bold">test</span> their JavaScript <span class="bold">skill</span>.</p>
+    <script>
+        function highlight() {
+            let elements = document.querySelectorAll('span.bold');
+            elements.forEach(function(element) {
+                element.style.fontWeight = 'bold';
+            });
+        }
+    </script>
+</body>
+
+</html>

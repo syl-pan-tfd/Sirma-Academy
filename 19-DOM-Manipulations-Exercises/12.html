@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Get height and width of the window</title>
+</head>
+
+<body onresize="showSize()">
+    <script>
+        function showSize() {
+            let width = window.outerWidth;
+            let height = window.outerHeight;
+            console.log(`Width: ${width}. Height: ${height}.`);
+        }
+    </script>
+</body>
+
+</html>

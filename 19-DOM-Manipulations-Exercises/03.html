@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>JS DOM paragraph style</title>
+</head> 
+<body>
+  <p id ='text'>JavaScript Exercises</p> 
+  <div>
+    <button onclick="restyle()">Style</button>
+  </div>
+  <script>
+  function restyle() {
+    const pIdText = document.getElementById('text');
+    pIdText.style.color = 'white';
+    pIdText.style.backgroundColor = 'dodgerblue';
+    pIdText.style.fontFamily = 'gotham';
+    pIdText.style.fontSize = '32px';
+    pIdText.style.padding = '10px 0';
+    pIdText.style.fontWeight = 'bold';
+    pIdText.style.textAlign = 'center';
+}
+</script>
+</body>
+</html>

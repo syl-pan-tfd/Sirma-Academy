@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Calculete Volume of Circle</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        form {
+            width: 450px;
+            height: auto;
+            border: 3px solid black;
+            margin: 0 auto;
+            padding: 0 0 10px 30px;
+        }
+
+        p {
+            padding: 15px 15px 15px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        input {
+            display: flex;
+            margin: 8px 0;
+            padding: 5px 0;
+        }
+
+        input[type=button] {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <p>Input radius value and get the volume of a sphere.</p>
+        <label for="radius">Radius</label>
+        <input type="text" id="radius">
+        <label for="volume">Volume</label>
+        <input type="text" id="volume">
+        <input type="button" onclick="calculeteVolume()" value="Calculete">
+    </form>
+    <script>
+        function calculeteVolume() {
+            const getInput = document.getElementById('radius').value;
+            const inputNumber = parseInt(getInput);
+            const volume = (4/3) * Math.PI * Math.pow(inputNumber, 3);
+            document.getElementById('volume').value = volume.toFixed(4);
+        }
+    </script>
+</body>
+
+</html>
